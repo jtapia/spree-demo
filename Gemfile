@@ -47,6 +47,6 @@ end
 gem 'spree', '2.1.3'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-1-stable'
 gem 'spree_auth_devise', :path => '../spree/spree_auth_devise', :branch => '2-1-stable'
-gem 'spree_showcase', path: '../spree/spree_showcase', :branch => '2-1-stable'
+gem 'spree_showcase'
 # gem 'spree_drop_ship', path: '../spree/spree_drop_ship'
 # gem 'spree_marketplace', path: '../spree/spree_marketplace'
