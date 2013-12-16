@@ -1,4 +1,17 @@
 GIT
+  remote: git://github.com/spree/spree_auth_devise.git
+  revision: 45a1e7aa5b235e42db52a754d7e827caf4e0d406
+  branch: 2-1-stable
+  specs:
+    spree_auth_devise (2.1.0)
+      cancan (~> 1.6.7)
+      devise (~> 3.2.2)
+      devise-encryptable (= 0.1.2)
+      spree_backend (~> 2.1.0)
+      spree_core (~> 2.1.0)
+      spree_frontend (~> 2.1.0)
+
+GIT
   remote: https://github.com/spree/spree_gateway.git
   revision: d4fafc42bb40257c2a87c0642a90469b7ddf85ea
   branch: 2-1-stable
@@ -6,17 +19,6 @@ GIT
     spree_gateway (2.1.0.beta)
       savon (~> 1.2)
       spree_core (~> 2.1)
-
-PATH
-  remote: ../spree/spree_auth_devise
-  specs:
-    spree_auth_devise (2.1.0)
-      cancan (~> 1.6.7)
-      devise (~> 3.0.1)
-      devise-encryptable (= 0.1.2)
-      spree_backend (~> 2.1.0)
-      spree_core (~> 2.1.0)
-      spree_frontend (~> 2.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -90,10 +92,11 @@ GEM
       colorize (>= 0.5.8)
       nokogiri (~> 1.6.0)
       rails (>= 3.1)
-    devise (3.0.4)
+    devise (3.2.2)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 3.2.6, < 5)
+      thread_safe (~> 0.1)
       warden (~> 1.2.3)
     devise-encryptable (0.1.2)
       devise (>= 2.1.0)
